@@ -11,8 +11,23 @@
   inputs.src-nimlangserver-master.ref   = "refs/heads/master";
   inputs.src-nimlangserver-master.owner = "nim-lang";
   inputs.src-nimlangserver-master.repo  = "langserver";
-  inputs.src-nimlangserver-master.dir   = "";
   inputs.src-nimlangserver-master.type  = "github";
+  
+  inputs."github.com/yyoncho/asynctools".owner = "nim-nix-pkgs";
+  inputs."github.com/yyoncho/asynctools".ref   = "master";
+  inputs."github.com/yyoncho/asynctools".repo  = "github.com/yyoncho/asynctools";
+  inputs."github.com/yyoncho/asynctools".dir   = "";
+  inputs."github.com/yyoncho/asynctools".type  = "github";
+  inputs."github.com/yyoncho/asynctools".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/yyoncho/asynctools".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."github.com/yyoncho/nim-json-rpc".owner = "nim-nix-pkgs";
+  inputs."github.com/yyoncho/nim-json-rpc".ref   = "master";
+  inputs."github.com/yyoncho/nim-json-rpc".repo  = "github.com/yyoncho/nim-json-rpc";
+  inputs."github.com/yyoncho/nim-json-rpc".dir   = "";
+  inputs."github.com/yyoncho/nim-json-rpc".type  = "github";
+  inputs."github.com/yyoncho/nim-json-rpc".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/yyoncho/nim-json-rpc".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."with".owner = "nim-nix-pkgs";
   inputs."with".ref   = "master";
