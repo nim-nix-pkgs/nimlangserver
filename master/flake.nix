@@ -13,21 +13,21 @@
   inputs.src-nimlangserver-master.repo  = "langserver";
   inputs.src-nimlangserver-master.type  = "github";
   
-  inputs."github.com/yyoncho/asynctools".owner = "nim-nix-pkgs";
-  inputs."github.com/yyoncho/asynctools".ref   = "master";
-  inputs."github.com/yyoncho/asynctools".repo  = "github.com/yyoncho/asynctools";
-  inputs."github.com/yyoncho/asynctools".dir   = "";
-  inputs."github.com/yyoncho/asynctools".type  = "github";
-  inputs."github.com/yyoncho/asynctools".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github.com/yyoncho/asynctools".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."github-yyoncho-asynctools".owner = "nim-nix-pkgs";
+  inputs."github-yyoncho-asynctools".ref   = "master";
+  inputs."github-yyoncho-asynctools".repo  = "github-yyoncho-asynctools";
+  inputs."github-yyoncho-asynctools".dir   = "master";
+  inputs."github-yyoncho-asynctools".type  = "github";
+  inputs."github-yyoncho-asynctools".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github-yyoncho-asynctools".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."github.com/yyoncho/nim-json-rpc".owner = "nim-nix-pkgs";
-  inputs."github.com/yyoncho/nim-json-rpc".ref   = "master";
-  inputs."github.com/yyoncho/nim-json-rpc".repo  = "github.com/yyoncho/nim-json-rpc";
-  inputs."github.com/yyoncho/nim-json-rpc".dir   = "";
-  inputs."github.com/yyoncho/nim-json-rpc".type  = "github";
-  inputs."github.com/yyoncho/nim-json-rpc".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github.com/yyoncho/nim-json-rpc".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."github-yyoncho-json_rpc".owner = "nim-nix-pkgs";
+  inputs."github-yyoncho-json_rpc".ref   = "master";
+  inputs."github-yyoncho-json_rpc".repo  = "github-yyoncho-json_rpc";
+  inputs."github-yyoncho-json_rpc".dir   = "master";
+  inputs."github-yyoncho-json_rpc".type  = "github";
+  inputs."github-yyoncho-json_rpc".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github-yyoncho-json_rpc".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."with".owner = "nim-nix-pkgs";
   inputs."with".ref   = "master";
